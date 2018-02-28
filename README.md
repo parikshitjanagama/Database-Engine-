@@ -1,5 +1,5 @@
 ###########################################################################################
-Please see the DBSqlLite.pdf to understand the requirements of the project
+The DBSqlLite.pdf to understand the requirements of the project
 ###########################################################################################
 
 To run the DBSqlLite.jave file, apache commons library jar file is required.
@@ -50,14 +50,14 @@ insert into table;<return><TableName><space>VALUES<space><return>(value1,value2)
 
 inserts a row into the table with name “TableName” with the column values as value1 and value2.
 
-Eg: insert into table;<return>Book VALUES <return>(5,Harry Potter,Addison);
+Eg: insert into table;<return>Book VALUES <return>(3,Lord of the rings,Richardson);
 ###########################################################################################
 
 select * from;<return><TableName><space>WHERE<space><return><ColumnName><space><operator><space><ColumnValue>;
 
 selects all the rows that satisfy the condition on ColumnName , from the table “TableName”.
 
-Eg: select * from;<return>Book WHERE <return>Book_id = 5;
+Eg: select * from;<return>Book WHERE <return>Book_id = 3;
 
 
 
